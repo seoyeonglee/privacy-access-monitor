@@ -1,5 +1,7 @@
 # Privacy Access Monitor
 
+[![tests](https://github.com/seoyeonglee/privacy-access-monitor/actions/workflows/tests.yml/badge.svg)](https://github.com/seoyeonglee/privacy-access-monitor/actions/workflows/tests.yml)
+
 An explainable Python pipeline for detecting unusual access to sensitive customer data using **behavioral baselines, rule-based controls, and risk scoring**.
 
 > This repository uses fully synthetic data. It does not contain or reproduce employer data, internal thresholds, proprietary systems, or production detection logic.
