@@ -1,0 +1,25 @@
+{
+  "events_analyzed": 100,
+  "alerts_generated": 20,
+  "alert_rate": 0.2,
+  "critical_alerts": 0,
+  "high_alerts": 1,
+  "medium_alerts": 19,
+  "rule_weights": {
+    "OFF_HOURS": 20,
+    "WEEKEND_ACCESS": 10,
+    "GEO_ANOMALY": 30,
+    "EXPORT_SPIKE": 45,
+    "UNUSUAL_SYSTEM": 25,
+    "BULK_CUSTOMER_BURST": 40
+  },
+  "synthetic_evaluation": {
+    "note": "Evaluation is against injected labels in this synthetic sample only; it is not a production accuracy claim.",
+    "true_positive_events": 20,
+    "false_positive_events": 0,
+    "false_negative_events": 0,
+    "true_negative_events": 80,
+    "precision": 1,
+    "recall": 1
+  }
+}
